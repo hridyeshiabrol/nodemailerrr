@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background: #FEAC5E; 
+            background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  
+            background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form action="/user/signup-process" method="GET">
+        <center>
+            <label for="msg"><h1>COMPOSE MESSAGE</h1></label> <br>
+        <textarea id="msg" name="msg" rows="20" cols="100"> </textarea>
+        <br>
+        <input type="submit" style="background-color: royalblue;" value="SEND" formaction="/user/nodemailer">
+        </center>
+    </form>
+</body>
+</html>
